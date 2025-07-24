@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>World Christian Missions</title>
   <style>
     :root {
@@ -11,89 +11,66 @@
       --text: #333333;
       --accent: #FFFFFF;
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, sans-serif; background: var(--background); color: var(--text); line-height: 1.6; }
-    nav { background: var(--primary); padding: 0.5rem 2rem; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
-    nav img { height: 40px; }
-    nav ul { display: flex; list-style: none; }
-    nav li { margin: 0 1rem; }
-    nav a { color: var(--accent); text-decoration: none; font-weight: bold; }
-    header { text-align: center; padding: 2rem 1rem; }
-    header img { max-width: 200px; }
-    section { padding: 4rem 2rem; max-width: 1000px; margin: 0 auto; }
-    section:nth-child(even) { background: var(--accent); }
-    h2 { color: var(--primary); margin-bottom: 1rem; text-align: center; }
-    p { margin-bottom: 1rem; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
-    .card { background: var(--accent); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    .card img { width: 100%; height: 200px; object-fit: cover; }
-    .card-content { padding: 1rem; text-align: center; }
-    .btn { display: inline-block; padding: 0.5rem 1rem; background: var(--primary); color: var(--accent); text-decoration: none; font-weight: bold; border-radius: 4px; }
-    footer { text-align: center; padding: 2rem; background: var(--primary); color: var(--accent); }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: Arial, sans-serif; background:var(--background); color:var(--text); line-height:1.6; }
+    nav { background:var(--primary); padding:0.5rem 2rem; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; }
+    nav img { height:40px; }
+    nav ul { display:flex; list-style:none; }
+    nav li { margin:0 1rem; }
+    nav a { color:var(--accent); text-decoration:none; font-weight:bold; }
+    header { text-align:center; padding:2rem 1rem; }
+    header img { max-width:200px; }
+    section { padding:4rem 2rem; max-width:1000px; margin:0 auto; }
+    section:nth-child(even) { background:var(--accent); }
+    h2 { color:var(--primary); margin-bottom:1rem; text-align:center; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1rem; }
+    .card { background:var(--accent); border-radius:8px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    .card img { width:100%; height:200px; object-fit:cover; }
+    .card-content { padding:1rem; text-align:center; }
+    footer { text-align:center; padding:2rem; background:var(--primary); color:var(--accent); }
   </style>
 </head>
 <body>
-  <nav>
-    <img src="assets/World%20Christian%20Missions%20-%20logo.png" alt="Logo">
-    <ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#quienes-somos">Quiénes Somos</a></li>
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#misioneros">Misioneros</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
 
-  <header id="inicio">
-    <img src="assets/World%20Christian%20Missions%20-%20logo%20con%20nombre.png" alt="World Christian Missions">
-  </header>
+<nav>
+  <img src="assets/World%20Christian%20Missions%20-%20logo.png" alt="Logo">
+  <ul>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#quienes">Quiénes Somos</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#misioneros">Misioneros</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
 
-  <section id="quienes-somos">
-    <h2>¿Quiénes Somos?</h2>
-    <p>Asociación evangélica comprometida con proyectos sociales y misiones a nivel global. Fortalecemos comunidades a través de educación, salud y apoyo espiritual.</p>
-  </section>
+<header id="inicio">
+  <img src="assets/World%20Christian%20Missions%20-%20logo%20con%20nombre.png" alt="World Christian Missions">
+</header>
 
-  <section id="servicios">
-    <h2>Servicios</h2>
-    <div class="grid">
-      <div class="card"><img src="assets/education.jpg" alt="Educación"><div class="card-content"><h3>Educación</h3><p>Materiales y talleres para escuelas cristianas y líderes comunitarios.</p></div></div>
-      <div class="card"><img src="assets/health.jpg" alt="Salud"><div class="card-content"><h3>Salud</h3><p>Clínicas móviles y jornadas de asistencia médica.</p></div></div>
-      <div class="card"><img src="assets/logistics.jpg" alt="Logística"><div class="card-content"><h3>Logística</h3><p>Coordinación y apoyo en misiones locales e internacionales.</p></div></div>
-    </div>
-  </section>
+<section id="quienes">
+  <h2>¿Quiénes Somos?</h2>
+  <p>Asociación evangélica comprometida con proyectos sociales y misiones a nivel global. Fortalecemos comunidades a través de educación, salud y apoyo espiritual.</p>
+</section>
 
-  <section id="misioneros">
-    <h2>Conoce a Nuestros Misioneros</h2>
-    <div class="grid">
-      <div class="card"><img src="assets/Renzo%20y%20%C3%81ngela%20Zu%C3%B1iga.jpg" alt="Renzo y Ángela Zuñiga"><div class="card-content"><h3>Renzo y Ángela Zuñiga</h3></div></div>
-      <div class="card"><img src="assets/Sara%C3%AD%20Torres.jpg" alt="Saraí Torres"><div class="card-content"><h3>Saraí Torres</h3></div></div>
-      <div class="card"><img src="assets/V%C3%ADctor%20y%20Gildeny%20Romero.jfif.jpg" alt="Víctor y Gildeny Romero"><div class="card-content"><h3>Víctor y Gildeny Romero</h3></div></div>
-      <div class="card"><img src="assets/Vanessa%20T.jpeg.jpg" alt="Vanessa T"><div class="card-content"><h3>Vanessa T</h3></div></div>
-      <div class="card"><img src="assets/Ra%C3%BAl%20e%20Hiroko%20Hinojosa.jpeg.jpg" alt="Raúl e Hiroko Hinojosa"><div class="card-content"><h3>Raúl e Hiroko Hinojosa</h3></div></div>
-      <div class="card"><img src="assets/Raymoond%20y%20Anita%20Bradley.jpg" alt="Raymoond y Anita Bradley"><div class="card-content"><h3>Raymoond y Anita Bradley</h3></div></div>
-      <div class="card"><img src="assets/Luis%20y%20Rosa%20Mart%C3%ADnez.jpeg.jpg" alt="Luis y Rosa Martínez"><div class="card-content"><h3>Luis y Rosa Martínez</h3></div></div>
-      <div class="card"><img src="assets/Carolina%20Pace.jpeg.jpg" alt="Carolina Pace"><div class="card-content"><h3>Carolina Pace</h3></div></div>
-      <div class="card"><img src="assets/Lucy%20Chiang.jpg" alt="Lucy Chiang"><div class="card-content"><h3>Lucy Chiang</h3></div></div>
-      <div class="card"><img src="assets/David%20y%20Giselle%20Paredes.jpg" alt="David y Giselle Paredes"><div class="card-content"><h3>David y Giselle Paredes</h3></div></div>
-      <div class="card"><img src="assets/Francisco%20y%20Rosalina%20Acho.jpg" alt="Francisco y Rosalina Acho"><div class="card-content"><h3>Francisco y Rosalina Acho</h3></div></div>
-      <div class="card"><img src="assets/Jos%C3%A9%20y%20Gladys%20Zapata%201.jpg" alt="José y Gladys Zapata"><div class="card-content"><h3>José y Gladys Zapata</h3></div></div>
-      <div class="card"><img src="assets/Antonio%20Mendoza.jpeg.jpg" alt="Antonio Mendoza"><div class="card-content"><h3>Antonio Mendoza</h3></div></div>
-      <div class="card"><img src="assets/Carmen%20Su%C3%A1rez.jpeg.jpg" alt="Carmen Suárez"><div class="card-content"><h3>Carmen Suárez</h3></div></div>
-      <div class="card"><img src="assets/Jonatan%20y%20Shantal%20Odicio.jpg" alt="Jonatan y Shantal Odicio"><div class="card-content"><h3>Jonatan y Shantal Odicio</h3></div></div>
-      <div class="card"><img src="assets/Juan%20Carlos%20L%C3%B3pez%20C%C3%B1ete.jpg" alt="Juan Carlos López Cañete"><div class="card-content"><h3>Juan Carlos López Cañete</h3></div></div>
-      <div class="card"><img src="assets/Jorge%20y%20Victoria%20Fern%C3%A1ndez.jpeg.jpg" alt="Jorge y Victoria Fernández"><div class="card-content"><h3>Jorge y Victoria Fernández</h3></div></div>
-      <div class="card"><img src="assets/Carmen%20Su%C3%A1rez.jpeg.jpg" alt="Carmen Suárez"><div class="card-content"><h3>Carmen Suárez</h3></div></div>
-    </div>
-  </section>
+<section id="servicios">
+  <h2>Servicios</h2>
+  <div class="grid">
+    <div class="card"><img src="assets/education.jpg" alt="Educación"><div class="card-content"><h3>Educación</h3></div></div>
+    <div class="card"><img src="assets/health.jpg" alt="Salud"><div class="card-content"><h3>Salud</h3></div></div>
+    <div class="card"><img src="assets/logistics.jpg" alt="Logística"><div class="card-content"><h3>Logística</h3></div></div>
+  </div>
+</section>
 
-  <section id="contacto" class="contact">
-    <h2>Contáctanos</h2>
-    <p>¿Quieres colaborar o recibir más información? Escríbenos por WhatsApp:</p>
-    <a href="https://api.whatsapp.com/send?phone=51965727248&text=Hola,%20quisiera%20más%20información" class="btn">Enviar WhatsApp</a>
-  </section>
+<section id="misioneros">
+  <h2>Conoce a Nuestros Misioneros</h2>
+  <div class="grid">
+    <div class="card"><img src="assets/Renzo%20y%20%C3%81ngela%20Zu%C3%B1iga.jpg" alt="Renzo y Ángela Zuñiga"><div class="card-content"><h3>Renzo y Ángela Zuñiga</h3></div></div>
+    <div class="card"><img src="assets/Sara%C3%AD%20Torres.jpg" alt="Saraí Torres"><div class="card-content"><h3>Saraí Torres</h3></div></div>
+    <div class="card"><img src="assets/V%C3%ADctor%20y%20Gildeny%20Romero.jfif.jpg" alt="Víctor y Gildeny Romero"><div class="card-content"><h3>Víctor y Gildeny Romero</h3></div></div>
+    <div class="card"><img src="assets/Vanessa%20T.jpeg.jpg" alt="Vanessa T"><div class="card-content"><h3>Vanessa T</h3></div></div>
+    <div class="card"><img src="assets/Ra%C3%BAl%20e%20Hiroko%20Hinojosa.jpeg.jpg" alt="Raúl e Hiroko Hinojosa"><div class="card-content"><h3>Raúl e Hiroko Hinojosa</h3></div></div>
+    <div class="card"><img src="assets/Raymoond%20y%20Anita%20Bradley.jpg" alt="Raymoond y Anita Bradley"><div class="card-content"><h3>Raymoond y Anita Bradley</h3></div></div>
+    <div class="card"><img src="assets/Luis%20y%20Rosa%20Mart%C3%ADnez.jpeg.jpg" alt="Luis y Rosa Martínez"><div class="card-content"><h3>Luis y Rosa Martínez</h3></div></div>
+    <div class="card"><img src="assets/Carolina%20Pace.jpeg.jpg" alt="Carolina Pace"><div class="card-content"><h3>Carolina Pace</h3></div></div>
+    <div class="card"><img src="assets/Lucy%20Chiang.jpg" alt="Lucy Chiang"><div class="card-content"
 
-  <footer>
-    <p>&copy; 2025 World Christian Missions. Todos los derechos reservados.</p>
-  </footer>
-</body>
-</html>
